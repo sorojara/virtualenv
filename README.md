@@ -1,6 +1,6 @@
 # virtualenv
 
-Para utilizar el script debe tener en la misma carpeta una carpeta con el SDK de python de naoqi bajo el nombre "pynaoqi-python2.7-2.1.0.19-linux64"
+Para utilizar el script debe tener en la misma carpeta el SDK de python de naoqi bajo el nombre "pynaoqi-python2.7-2.1.0.19-linux64"
 
 Una vez ahi simplemente se ejecuta el comando "./script" y al terminar se ejecuta "source venv/bin/activate" cada vez que se quiera usar estas bibliotecas (naoqi y pygame) 
 
