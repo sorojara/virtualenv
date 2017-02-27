@@ -1,0 +1,31 @@
+#!/bin/bash
+
+sudo apt-get install sl
+
+sudo apt-get install cowsay
+
+ARNALDO=sl
+
+$ARNALDO
+
+sudo apt-get update
+
+sudo python get-pip.py
+
+pip install virtualenv
+
+virtualenv venv
+
+source venv/bin/activate
+
+sudo pip install virtualenvwrapper
+
+source /usr/local/bin/virtualenvwrapper.sh
+
+add2virtualenv pynaoqi-python2.7-2.1.0.19-linux64
+
+yes y | pip install hg+http://bitbucket.org/pygame/pygame
+
+clear
+
+cowsay Virtualenv Ready
